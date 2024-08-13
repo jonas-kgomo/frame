@@ -6,20 +6,31 @@
     "start": "next start"
   },
   "dependencies": {
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-select": "^2.1.1",
+    "@radix-ui/react-slot": "^1.1.0",
     "@tailwindcss/postcss": "4.0.0-alpha.13",
     "@types/node": "20.11.17",
     "@types/react": "18.2.55",
     "@types/react-dom": "18.2.19",
     "@vercel/analytics": "^1.1.3",
     "@vercel/speed-insights": "^1.0.9",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "geist": "1.2.2",
-    "next": "canary",
+    "google": "link:next/font/google",
+    "lucide-react": "^0.427.0",
+    "next": "^14.0.3",
     "next-mdx-remote": "^4.4.1",
     "postcss": "^8.4.35",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "recharts": "^2.12.7",
     "sugar-high": "^0.6.0",
-    "tailwindcss": "4.0.0-alpha.13",
+    "tailwind-merge": "^2.5.2",
     "typescript": "5.3.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "4.0.0-alpha.13"
   }
 }
